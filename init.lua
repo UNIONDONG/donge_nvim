@@ -16,6 +16,5 @@ require("configs/options")
 
 require("lazy").setup({
 	{import = "plugins"},
-
 })
 

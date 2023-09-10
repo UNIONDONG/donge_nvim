@@ -3,7 +3,8 @@ return {
   version = "*",
   lazy = false,
     config = function()
-        require("Comment").setup{}
+        require("Comment").setup{
+		}
     end,
 }
 

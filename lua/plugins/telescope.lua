@@ -15,6 +15,7 @@ return {
     vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
   end,
  config = function()
+	require('telescope').load_extension('bookmarks')
     require("telescope").setup {
     defaults = {
     layout_config = {
