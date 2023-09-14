@@ -45,6 +45,10 @@ return {
         'coc-clangd',
 		'coc-lua',
 		'coc-pairs',
+		'coc-marketplace',
+		'coc-cmake',
+		'coc-copilot',
+
         }
     end,
 }
