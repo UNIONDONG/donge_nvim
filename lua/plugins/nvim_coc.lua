@@ -44,6 +44,7 @@ return {
         'coc-sh',
         'coc-clangd',
 		'coc-lua',
+		'coc-pairs',
         }
     end,
 }

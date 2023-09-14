@@ -4,7 +4,7 @@ vim.g.mapleader = " "
 local keymap = vim.keymap
 
 -- ---------- 插入模式 ---------- ---
-keymap.set("i", "ii", "<ESC>")
+keymap.set("i", "jk", "<ESC>")
 
 -- 切换buffer
 keymap.set("n", "<C-Left>", ":bnext<cr>")
