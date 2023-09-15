@@ -33,6 +33,7 @@ return {
     version = "*",
     branch = "release",
     lazy = false,
+	run = 'yarn install --frozen-lockfile',
     init = function()
     end,
     config = function()
