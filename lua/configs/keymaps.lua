@@ -7,8 +7,8 @@ local keymap = vim.keymap
 keymap.set("i", "jk", "<ESC>")
 
 -- 切换buffer
-keymap.set("n", "<C-Left>", ":bnext<cr>")
-keymap.set("n", "<C-Right>", ":bprevious<cr>")
+keymap.set("n", "<C-d>", ":bnext<cr>")
+keymap.set("n", "<C-a>", ":bprevious<cr>")
 
 -- 窗口
 keymap.set("n", "<leader>sv", "<C-w>v") -- 水平新增窗口 
