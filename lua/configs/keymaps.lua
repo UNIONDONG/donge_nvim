@@ -16,3 +16,6 @@ keymap.set("n", "<leader>sh", "<C-w>s") -- 垂直新增窗口
 
 -- 取消高亮
 keymap.set("n", "<leader>nh", ":nohl<CR>")
+
+-- 获取相对路径
+keymap.set("n", "<leader>z", ":!echo % | clip.exe<CR>")
