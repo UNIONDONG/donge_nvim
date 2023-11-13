@@ -30,6 +30,8 @@ return {
     keys = {
       { "<leader>e", "<cmd>NvimTreeToggle<cr>", desc = "NeoTree" },
       { "<leader>E", "<cmd>NvimTreeToggle<cr>", desc = "NeoTree" },
+      { "<leader>Q", "<cmd>NvimTreeFindFile<cr>", desc = "NeoTree" },
+      { "<leader>q", "<cmd>NvimTreeFindFile<cr>", desc = "NeoTree" },
 
     },
 }
