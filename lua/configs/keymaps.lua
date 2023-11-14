@@ -18,4 +18,7 @@ keymap.set("n", "<leader>sh", "<C-w>s") -- 垂直新增窗口
 keymap.set("n", "<leader>nh", ":nohl<CR>")
 
 -- 获取相对路径
-keymap.set("n", "<leader>z", ":!echo % | clip.exe<CR>")
+keymap.set("n", "<leader>z", ":!echo % | xclip -selection clipboard<CR>")
+
+-- 关闭单个文件
+keymap.set("n", "C-q", ":bdelete<CR>");
