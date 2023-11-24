@@ -21,4 +21,4 @@ keymap.set("n", "<leader>nh", ":nohl<CR>")
 keymap.set("n", "<leader>z", ":!echo % | xclip -selection clipboard<CR>")
 
 -- 关闭单个文件
-keymap.set("n", "C-q", ":bdelete<CR>");
+keymap.set("n", "<C-q>", ":bdelete<CR>:bprevious<CR>");
