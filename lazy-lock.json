@@ -1,5 +1,6 @@
 {
   "Comment.nvim": { "branch": "master", "commit": "e51f2b142d88bb666dcaa77d93a07f4b419aca70" },
+  "SmoothCursor.nvim": { "branch": "main", "commit": "8c2c5d61899a5c0ecc1dc34827a6eda1270cebdf" },
   "bookmarks.nvim": { "branch": "main", "commit": "e502d33bf87a6b16b7e590a2896e87d3f9203d27" },
   "bufferline.nvim": { "branch": "main", "commit": "d24378edc14a675c820a303b4512af3bbc5761e9" },
   "coc.nvim": { "branch": "release", "commit": "1d3c525e2d6af0c07ed19fa7a5016ffc6a9e8421" },
@@ -8,6 +9,7 @@
   "indentation-multiline.nvim": { "branch": "master", "commit": "a34621d33a9aeab5a9a6eb1894bd6ea79b579bcf" },
   "lazy.nvim": { "branch": "main", "commit": "3ad55ae678876516156cca2f361c51f7952a924b" },
   "lualine.nvim": { "branch": "master", "commit": "05d78e9fd0cdfb4545974a5aa14b1be95a86e9c9" },
+  "nvim-cursorline": { "branch": "main", "commit": "804f0023692653b2b2368462d67d2a87056947f9" },
   "nvim-osc52": { "branch": "main", "commit": "3e96035d62290183fe7a11418db2b254fcfcaee3" },
   "nvim-tree.lua": { "branch": "master", "commit": "273c1700eb68c27dce4e518efafc8144fd7ce4ab" },
   "nvim-treesitter": { "branch": "master", "commit": "63260da18bf273c76b8e2ea0db84eb901cab49ce" },
