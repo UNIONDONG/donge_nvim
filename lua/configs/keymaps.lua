@@ -22,3 +22,7 @@ keymap.set("n", "<leader>z", ":!echo % | xclip -selection clipboard<CR>")
 
 -- 关闭单个文件
 keymap.set("n", "<C-q>", ":bdelete<CR>:bprevious<CR>");
+
+-- 保存工程文件
+keymap.set("n", "<C-s>", ":mksession! project.vim<CR>");
+keymap.set("n", "<C-S>", ":source project.vim<CR>");
